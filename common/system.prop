@@ -1,0 +1,25 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+# improve audio
+ro.ril.enable.amr.wideband=1
+persist.audio.vr.enable=true
+# camera 2 api
+ro.opa.eligible_device=true
+persist.camera.HAL3.enabled=1
+# disable logging
+logcat.live=disable
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+# wifi/radio power tweaks
+wifi.supplicant_scan_interval=60
+ro.config.hw_fast_dormancy=1
+ro.config.hw_power_saving=1
+# android sleep mode
+pm.sleep_mode=1
+# disable checkin
+ro.config.nocheckin=1
+# hw acceleration
+debug.sf.hw=1
+# media
+persist.sys.use_dithering=0
