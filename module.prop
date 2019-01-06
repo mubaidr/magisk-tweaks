@@ -1,7 +1,7 @@
-id=mubaidr-build-prop
-name=mubaidr-build-prop
-version=v1
-versionCode=1
+id=mubaidr-build-prop-tweaks
+name=build.prop tweaks by mubaidr
+version=v1.1
+versionCode=1.1
 author=mubaidr
 description=Some build prop tweaks
 minMagisk=17000
